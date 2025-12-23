@@ -4,9 +4,9 @@
  data you have specified in the projects config.xml file.
  */
 
-var configParser = require('./lib/configXmlParser.js');
-var iosProjectEntitlements = require('./lib/ios/projectEntitlements.js');
-var iosProjectPreferences = require('./lib/ios/xcodePreferences.js');
+var configParser = require('/lib/configXmlParser.js');
+var iosProjectEntitlements = require('/lib/ios/projectEntitlements.js');
+var iosProjectPreferences = require('/lib/ios/xcodePreferences.js');
 var IOS = 'ios';
 
 module.exports = function(ctx) {
