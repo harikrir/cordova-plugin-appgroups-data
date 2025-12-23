@@ -14,7 +14,7 @@
 	<!-- <hook src="scripts/install_prerequisites.js" type="before_plugin_install" />  -->
 
 	<hook src="scripts/afterPrepareHook.js" type="after_prepare"/>
-	<hook src="scripts/beforePluginInstallHook.js" type="before_plugin_install" />
+<!--	<hook src="scripts/beforePluginInstallHook.js" type="before_plugin_install" />  -->
 	<platform name="ios">
 		<config-file parent="/*" target="config.xml">
 			<feature name="SharedAppGroupsData">
